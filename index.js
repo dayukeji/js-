@@ -11,6 +11,7 @@ const sand = (ctx, fnStr) => {
   with(window){
     eval(fnStr)
   }
+  
 }
 
 sand(ctx, 'fn(aa)')
